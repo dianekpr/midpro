@@ -1,0 +1,162 @@
+body{
+background: linear-gradient(to top,white, lightcyan);
+
+}
+
+
+.container-fluid {
+  width: 100%;
+}
+.navbar{
+    background-color: #FFFFFF;
+    border-bottom: 11px solid black;
+}
+.logo {
+  width: 95px;
+  height: 80px;
+  margin-top: -2px;
+    margin-right: 20px;
+}
+.nb1 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Lato;
+  color: #5E5B4E;
+  opacity: 90%;
+  margin-left: -5px;
+
+}
+
+.search {
+    color: #ffffff;
+  padding: 20px; 
+
+}
+/* mengubah warna placeholder */
+.search::-webkit-input-placeholder{
+  color: #000000;
+}
+.search, .sign {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Lato;
+  margin-right: 20px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.sign:hover {
+  background: linear-gradient(to right, aquamarine,forestgreen);;     
+  color:#1b1a1a;
+}
+
+.form-control mr-sm-2 {
+  color: white;
+}
+.nav-fill{
+  margin-top: 70px;
+}
+
+.directory-or a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.directory-or a:hover{
+  color:darkblue ;
+}
+
+.directory-or span{
+  color: darkblue;
+
+}
+
+#menu{
+    margin-top: 200px;
+    width: 20%; height: 500px; float: left;
+    background: lightgrey;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#menu a{
+  margin-left: 20px;
+  width: 250px;
+  height: 70px;
+  font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+html {
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  border-radius: 0;
+  margin-right: .5em;
+  color: #fff !important;
+  width: 100px;
+}
+
+.container{
+  margin-top: 120px;
+  margin-right: 50px;
+  margin left: 400px;
+}
+
+.from-group{
+  width:80px;
+}
+
+#fb{
+  width: 103px;
+  height: 103px;
+}
+
+#tw{
+  width: 78px;
+  height: 78px;
+  margin: 0px 10px;
+}
+#ig{
+  width: 80px;
+  height: 80px;
+  display: inherit;
+  margin-left: 6px;
+}
+.hubungi {
+  text-align: center;
+    margin-top: 1em;
+}
+.sosmed{
+  text-align: center;
+  background-color: rgb(163, 153, 153);
+  padding-bottom: 5px;
+  margin-top: 300px;
+  
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  color: pink;
+  background-color: #000000;
+  padding-top: 20px;
+  font-size: large;
+  text-decoration: none;
+}
+
+  
